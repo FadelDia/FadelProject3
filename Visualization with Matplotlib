@@ -1,0 +1,13 @@
+# Histogram of earthquake magnitudes
+
+import matplotlib.pyplot as plt
+
+
+df['magnitude'].plot(kind='hist', bins=20, color='blue', alpha=0.7)
+plt.title('Distribution of Earthquake Magnitudes')
+plt.xlabel('Magnitude')
+plt.ylabel('Frequency')
+plt.grid(True)
+plt.show()
+#Ce graphique montre la fréquence des différentes magnitudes enregistrées dans le jeu de données.
+# La plupart des tremblements de terre ont une magnitude entre 6.5 et 7.5, avec des pics notables autour de ces valeurs.
