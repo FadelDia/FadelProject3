@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+# Plotting a bar chart for Rating vs. Popularity
+plt.figure(figsize=(10,6))
+plt.bar(data['Rating'], data['Popularity'])
+plt.xlabel('Rating')
+plt.ylabel('Popularity')
+plt.title('Rating vs. Popularity')
+plt.show()
