@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(10,6))
 plt.bar(data['Rating'], data['Popularity'])
 plt.xlabel('Rating')
+plt.xticks(fontsize=9)
 plt.ylabel('Popularity')
 plt.title('Rating vs. Popularity')
 plt.show()
