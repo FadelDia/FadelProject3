@@ -1,10 +1,8 @@
-import matplotlib.pyplot as plt
+import streamlit as st
+import pandas as pd
+df = pd.DataFrame({
+  'first column': [1, 2, 3, 4],
+  'second column': [10, 20, 30, 40]
+})
 
-# Plotting a bar chart for Rating vs. Popularity
-plt.figure(figsize=(10,6))
-plt.bar(data['Rating'], data['Popularity'])
-plt.xlabel('Rating')
-plt.xticks(fontsize=9)
-plt.ylabel('Popularity')
-plt.title('Rating vs. Popularity')
-plt.show()
+df
